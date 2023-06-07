@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync --update --ignore-existing --include="*.html" --exclude="*" /root/alx-system_engineering-devops
+rsync --update --ignore-existing --include="*.html" --exclude="*" /root/alx-system_engineering-devops/14-copy_html
