@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aXp | sed -e 's/[^\/]*\///' | awk '{ if ($0 ~ /^[.][.]\/$/) { print; next } } { print | "sort -t/ -k1,1 -k2,2b -k3,3'\"$'\n''\"'" }'
+ls -A1 | sort | sed -E 's/(.*)\/$/\1\//' | tr '\n' ',' | sed 's/,$/\n/'
