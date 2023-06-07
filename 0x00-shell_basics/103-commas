@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | tr '\n' ','
+ls -ap1 | awk -v ORS= -F/ '/^[[:alnum:]]/ { print ($NF~/^\./)? $NF: $NF"/" }' | sort
