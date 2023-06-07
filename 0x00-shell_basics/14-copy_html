@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync --update --ignore-existing --include="*.html" --exclude="*" ./ ../alx-system_engineering-devops/
+rsync --update --ignore-existing --include="*.html" --exclude="*" ./ ../alx-system_engineering-devops/0x00-shell_basics ../alx-system_engineering-devops/
