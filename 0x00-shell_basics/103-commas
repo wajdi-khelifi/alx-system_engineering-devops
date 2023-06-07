@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 | awk -v ORS= -F/ '/^[[:alnum:]]/ { print ($NF~/^\./)? $NF: $NF"/" }' | sort
+ls -aXp | sed -e 's/[^\/]*\///' | tr '\n' ','; echo
