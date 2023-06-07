@@ -1,2 +1,3 @@
 #!/bin/bash
+file -C -m school.magic school.mgc
 file -m school.mgc /root/alx-system_engineering-devops/0x00-shell_basics
