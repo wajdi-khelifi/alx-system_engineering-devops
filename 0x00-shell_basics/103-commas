@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -aXp | sed -e 's/[^\/]*\///' | tr '\n' ','; echo
+ls -aXp | sed -e 's/[^\/]*\///' | tr '\n' ','
