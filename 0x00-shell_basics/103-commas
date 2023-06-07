@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A1 | sort | sed -E 's/(.*)\/$/\1\//' | tr '\n' ',' | sed 's/,$/\n/'
+ls -pavm
