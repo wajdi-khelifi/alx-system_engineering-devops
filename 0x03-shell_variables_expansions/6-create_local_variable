@@ -1,2 +1,2 @@
 #!/bin/bash
-set echo 'School' > BEST
+set export BEST="School"
