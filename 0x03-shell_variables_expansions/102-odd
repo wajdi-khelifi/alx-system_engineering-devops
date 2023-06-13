@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 | grep -n
+\ls -1 | grep -n
