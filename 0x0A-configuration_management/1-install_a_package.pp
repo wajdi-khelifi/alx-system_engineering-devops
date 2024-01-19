@@ -1,7 +1,7 @@
 #!/usr/bin/pup
 # Using puppet install flask
 package {'python3-pip':
-  ensure   => installed,
+  ensure => installed,
 }
 
 package { 'flask':
