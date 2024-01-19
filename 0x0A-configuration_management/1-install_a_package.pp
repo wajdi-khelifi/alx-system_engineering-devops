@@ -1,5 +1,5 @@
 #!/usr/bin/pup
-# Using puppet install flask
+# Ensure python3-pip is installed
 package { 'python3-pip':
   ensure => installed,
 }
