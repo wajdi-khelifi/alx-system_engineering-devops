@@ -11,5 +11,5 @@ file_line { 'Refuse to authenticate using password':
 file_line { 'Use private key':
   ensure => present,
   path   => 'etc/ssh/ssh_config',
-  line   => 'IdentifyFile ~/.ssh/school',
+  line   => 'IdentifyFile ~/.ssh/school'
 }
