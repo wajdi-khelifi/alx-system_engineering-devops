@@ -1,6 +1,6 @@
 # 0x16. API advanced
 
-- **By:** Sylvain Kalache, co-founder at Holberton School
+- **By:** Tim Britton - Cohort #1
 - **Weight:** 1
 - **Project start:** Mar 5, 2024 4:00 AM
 - **Project End:** Mar 6, 2024 4:00 AM
